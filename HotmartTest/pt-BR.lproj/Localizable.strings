@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  HotmartTest
+
+  Created by Tiago Braga on 06/02/17.
+  Copyright © 2017 Tiago Braga. All rights reserved.
+*/
+
+"title_dashboard" = "Dashboard";
+"title_messages" = "Mensages";
+"title_sales" = "Minhas Vendas";
+
+"item_menu_dashboard" = "Dashboard";
+"item_menu_sales" = "Minhas Vendas";
+"item_menu_products" = "Meus Produtos";
+"item_menu_affiliates" = "Afiliados";
+"item_menu_messages" = "Mensagens";
+"item_menu_notifications" = "Notificações";
+"item_menu_account" = "Minha Conta";
+"item_menu_app" = "Sobre o App";

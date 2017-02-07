@@ -7,21 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B105BAB41E491ED300C314B4 /* ItemMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B105BAB31E491ED300C314B4 /* ItemMenuCell.xib */; };
+		B105BAB61E49227300C314B4 /* ItemMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B105BAB51E49227300C314B4 /* ItemMenuTableViewCell.swift */; };
+		B105BAB81E4923B100C314B4 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B105BAB71E4923B100C314B4 /* Menu.swift */; };
+		B105BABE1E49300000C314B4 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B105BABD1E49300000C314B4 /* DashboardViewController.swift */; };
+		B105BAC01E49317E00C314B4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B105BABF1E49317E00C314B4 /* BaseViewController.swift */; };
+		B105BAC21E4931E100C314B4 /* SalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B105BAC11E4931E100C314B4 /* SalesViewController.swift */; };
+		B105BAC41E4931FD00C314B4 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B105BAC31E4931FD00C314B4 /* MessageViewController.swift */; };
+		B105BAC61E49321400C314B4 /* Message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B105BAC51E49321400C314B4 /* Message.storyboard */; };
+		B105BAC81E49323C00C314B4 /* Sales.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B105BAC71E49323C00C314B4 /* Sales.storyboard */; };
+		B105BACA1E49345100C314B4 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = B105BAC91E49345100C314B4 /* Style.swift */; };
+		B105BACC1E49364600C314B4 /* UIColor+Hexa.swift in Sources */ = {isa = PBXBuildFile; fileRef = B105BACB1E49364600C314B4 /* UIColor+Hexa.swift */; };
+		B105BACE1E49395300C314B4 /* UIViewController+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = B105BACD1E49395300C314B4 /* UIViewController+Default.swift */; };
+		B105BAD01E49404D00C314B4 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B105BACF1E49404D00C314B4 /* Localizable.swift */; };
+		B105BAD41E4940BC00C314B4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B105BAD61E4940BC00C314B4 /* Localizable.strings */; };
 		B1A80A6A1E47CF0E00A611F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A80A691E47CF0E00A611F2 /* AppDelegate.swift */; };
-		B1A80A6C1E47CF0E00A611F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A80A6B1E47CF0E00A611F2 /* ViewController.swift */; };
 		B1A80A6F1E47CF0E00A611F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A80A6D1E47CF0E00A611F2 /* Main.storyboard */; };
 		B1A80A711E47CF0E00A611F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1A80A701E47CF0E00A611F2 /* Assets.xcassets */; };
 		B1A80A741E47CF0E00A611F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A80A721E47CF0E00A611F2 /* LaunchScreen.storyboard */; };
+		B1A80A881E47DC7B00A611F2 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A80A871E47DC7B00A611F2 /* MenuViewController.swift */; };
+		B1A80A8C1E47DCF600A611F2 /* HeaderMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A80A8B1E47DCF600A611F2 /* HeaderMenuView.swift */; };
+		B1A80A901E47DE5100A611F2 /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A80A8E1E47DE5100A611F2 /* UIView+Utils.swift */; };
+		B1A80A911E47DE5100A611F2 /* UIImageView+Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A80A8F1E47DE5100A611F2 /* UIImageView+Proxy.swift */; };
+		B1A80A941E47ECBB00A611F2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A80A931E47ECBB00A611F2 /* MainViewController.swift */; };
+		C4A9FE49CE1B37394A66F6A2 /* Pods_HotmartTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC37848A6BB177E32E3CC15 /* Pods_HotmartTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1DC37848A6BB177E32E3CC15 /* Pods_HotmartTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HotmartTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B105BAB31E491ED300C314B4 /* ItemMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemMenuCell.xib; sourceTree = "<group>"; };
+		B105BAB51E49227300C314B4 /* ItemMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemMenuTableViewCell.swift; sourceTree = "<group>"; };
+		B105BAB71E4923B100C314B4 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		B105BABD1E49300000C314B4 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		B105BABF1E49317E00C314B4 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		B105BAC11E4931E100C314B4 /* SalesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalesViewController.swift; sourceTree = "<group>"; };
+		B105BAC31E4931FD00C314B4 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		B105BAC51E49321400C314B4 /* Message.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Message.storyboard; sourceTree = "<group>"; };
+		B105BAC71E49323C00C314B4 /* Sales.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Sales.storyboard; sourceTree = "<group>"; };
+		B105BAC91E49345100C314B4 /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		B105BACB1E49364600C314B4 /* UIColor+Hexa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hexa.swift"; sourceTree = "<group>"; };
+		B105BACD1E49395300C314B4 /* UIViewController+Default.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Default.swift"; sourceTree = "<group>"; };
+		B105BACF1E49404D00C314B4 /* Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
+		B105BAD51E4940BC00C314B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B105BAD71E4940BF00C314B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B105BAD81E4940CE00C314B4 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		B105BAD91E4940CE00C314B4 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		B105BADA1E4940CF00C314B4 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		B1A80A661E47CF0E00A611F2 /* HotmartTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotmartTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A80A691E47CF0E00A611F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B1A80A6B1E47CF0E00A611F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B1A80A6E1E47CF0E00A611F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1A80A701E47CF0E00A611F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1A80A731E47CF0E00A611F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1A80A751E47CF0E00A611F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1A80A871E47DC7B00A611F2 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		B1A80A8B1E47DCF600A611F2 /* HeaderMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderMenuView.swift; sourceTree = "<group>"; };
+		B1A80A8E1E47DE5100A611F2 /* UIView+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
+		B1A80A8F1E47DE5100A611F2 /* UIImageView+Proxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Proxy.swift"; sourceTree = "<group>"; };
+		B1A80A931E47ECBB00A611F2 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DF9407949D8338B3EDC98019 /* Pods-HotmartTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotmartTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HotmartTest/Pods-HotmartTest.debug.xcconfig"; sourceTree = "<group>"; };
+		FC4A3113A187EA4230E81D74 /* Pods-HotmartTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotmartTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-HotmartTest/Pods-HotmartTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +73,75 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4A9FE49CE1B37394A66F6A2 /* Pods_HotmartTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		133E26D9F11F1480CD2B168C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF9407949D8338B3EDC98019 /* Pods-HotmartTest.debug.xcconfig */,
+				FC4A3113A187EA4230E81D74 /* Pods-HotmartTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B3EEC742B82680D2D570EB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DC37848A6BB177E32E3CC15 /* Pods_HotmartTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B105BAB91E4923B500C314B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B105BAD11E49404F00C314B4 /* Struct */,
+				B105BAB71E4923B100C314B4 /* Menu.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B105BAD11E49404F00C314B4 /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				B105BACF1E49404D00C314B4 /* Localizable.swift */,
+				B105BAC91E49345100C314B4 /* Style.swift */,
+			);
+			name = Struct;
+			sourceTree = "<group>";
+		};
+		B105BADB1E49418600C314B4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B1A80A871E47DC7B00A611F2 /* MenuViewController.swift */,
+				B1A80A931E47ECBB00A611F2 /* MainViewController.swift */,
+				B105BABD1E49300000C314B4 /* DashboardViewController.swift */,
+				B105BAC11E4931E100C314B4 /* SalesViewController.swift */,
+				B105BAC31E4931FD00C314B4 /* MessageViewController.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		B105BADC1E49418A00C314B4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B105BABF1E49317E00C314B4 /* BaseViewController.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
 		B1A80A5D1E47CF0E00A611F2 = {
 			isa = PBXGroup;
 			children = (
 				B1A80A681E47CF0E00A611F2 /* HotmartTest */,
 				B1A80A671E47CF0E00A611F2 /* Products */,
+				133E26D9F11F1480CD2B168C /* Pods */,
+				8B3EEC742B82680D2D570EB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +156,66 @@
 		B1A80A681E47CF0E00A611F2 /* HotmartTest */ = {
 			isa = PBXGroup;
 			children = (
-				B1A80A691E47CF0E00A611F2 /* AppDelegate.swift */,
-				B1A80A6B1E47CF0E00A611F2 /* ViewController.swift */,
-				B1A80A6D1E47CF0E00A611F2 /* Main.storyboard */,
 				B1A80A701E47CF0E00A611F2 /* Assets.xcassets */,
-				B1A80A721E47CF0E00A611F2 /* LaunchScreen.storyboard */,
+				B1A80A691E47CF0E00A611F2 /* AppDelegate.swift */,
 				B1A80A751E47CF0E00A611F2 /* Info.plist */,
+				B1A80A921E47DE5400A611F2 /* Extension */,
+				B105BAB91E4923B500C314B4 /* Model */,
+				B1A80A7B1E47D2B300A611F2 /* View */,
+				B1A80A7C1E47D2C700A611F2 /* Controller */,
+				B105BAD61E4940BC00C314B4 /* Localizable.strings */,
 			);
 			path = HotmartTest;
+			sourceTree = "<group>";
+		};
+		B1A80A7B1E47D2B300A611F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1A80A891E47DCC100A611F2 /* Storyboard */,
+				B1A80A841E47DC0C00A611F2 /* XIBs */,
+				B1A80A8B1E47DCF600A611F2 /* HeaderMenuView.swift */,
+				B105BAB51E49227300C314B4 /* ItemMenuTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B1A80A7C1E47D2C700A611F2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B105BADC1E49418A00C314B4 /* Base */,
+				B105BADB1E49418600C314B4 /* App */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B1A80A841E47DC0C00A611F2 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				B105BAB31E491ED300C314B4 /* ItemMenuCell.xib */,
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
+		B1A80A891E47DCC100A611F2 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B1A80A721E47CF0E00A611F2 /* LaunchScreen.storyboard */,
+				B1A80A6D1E47CF0E00A611F2 /* Main.storyboard */,
+				B105BAC51E49321400C314B4 /* Message.storyboard */,
+				B105BAC71E49323C00C314B4 /* Sales.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		B1A80A921E47DE5400A611F2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B105BACD1E49395300C314B4 /* UIViewController+Default.swift */,
+				B1A80A8E1E47DE5100A611F2 /* UIView+Utils.swift */,
+				B1A80A8F1E47DE5100A611F2 /* UIImageView+Proxy.swift */,
+				B105BACB1E49364600C314B4 /* UIColor+Hexa.swift */,
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +225,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1A80A781E47CF0E00A611F2 /* Build configuration list for PBXNativeTarget "HotmartTest" */;
 			buildPhases = (
+				AA02850C8AD4113EBE3D83EE /* [CP] Check Pods Manifest.lock */,
 				B1A80A621E47CF0E00A611F2 /* Sources */,
 				B1A80A631E47CF0E00A611F2 /* Frameworks */,
 				B1A80A641E47CF0E00A611F2 /* Resources */,
+				496F530FDCE283C3F183C7FB /* [CP] Embed Pods Frameworks */,
+				CF352DBA74A21E1D96F19BD5 /* [CP] Copy Pods Resources */,
+				B1A80A8D1E47DD6400A611F2 /* TODO / FIXME */,
 			);
 			buildRules = (
 			);
@@ -107,6 +265,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = B1A80A5D1E47CF0E00A611F2;
 			productRefGroup = B1A80A671E47CF0E00A611F2 /* Products */;
@@ -123,7 +282,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B105BAC81E49323C00C314B4 /* Sales.storyboard in Resources */,
 				B1A80A741E47CF0E00A611F2 /* LaunchScreen.storyboard in Resources */,
+				B105BAB41E491ED300C314B4 /* ItemMenuCell.xib in Resources */,
+				B105BAD41E4940BC00C314B4 /* Localizable.strings in Resources */,
+				B105BAC61E49321400C314B4 /* Message.storyboard in Resources */,
 				B1A80A711E47CF0E00A611F2 /* Assets.xcassets in Resources */,
 				B1A80A6F1E47CF0E00A611F2 /* Main.storyboard in Resources */,
 			);
@@ -131,23 +294,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		496F530FDCE283C3F183C7FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HotmartTest/Pods-HotmartTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA02850C8AD4113EBE3D83EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1A80A8D1E47DD6400A611F2 /* TODO / FIXME */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "TODO / FIXME";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TAGS=\"TODO:|FIXME:\"\nfind \"${SRCROOT}\" \\( -name \"*.h\" -or -name \"*.m\" -or -name \"*.swift\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($TAGS).*\\$\" | perl -p -e \"s/($TAGS)/ warning: \\$1/\"";
+		};
+		CF352DBA74A21E1D96F19BD5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HotmartTest/Pods-HotmartTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B1A80A621E47CF0E00A611F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1A80A6C1E47CF0E00A611F2 /* ViewController.swift in Sources */,
 				B1A80A6A1E47CF0E00A611F2 /* AppDelegate.swift in Sources */,
+				B1A80A8C1E47DCF600A611F2 /* HeaderMenuView.swift in Sources */,
+				B105BAC21E4931E100C314B4 /* SalesViewController.swift in Sources */,
+				B105BACE1E49395300C314B4 /* UIViewController+Default.swift in Sources */,
+				B105BAB81E4923B100C314B4 /* Menu.swift in Sources */,
+				B1A80A901E47DE5100A611F2 /* UIView+Utils.swift in Sources */,
+				B105BACA1E49345100C314B4 /* Style.swift in Sources */,
+				B1A80A941E47ECBB00A611F2 /* MainViewController.swift in Sources */,
+				B105BAC01E49317E00C314B4 /* BaseViewController.swift in Sources */,
+				B105BAB61E49227300C314B4 /* ItemMenuTableViewCell.swift in Sources */,
+				B105BABE1E49300000C314B4 /* DashboardViewController.swift in Sources */,
+				B1A80A911E47DE5100A611F2 /* UIImageView+Proxy.swift in Sources */,
+				B105BAC41E4931FD00C314B4 /* MessageViewController.swift in Sources */,
+				B1A80A881E47DC7B00A611F2 /* MenuViewController.swift in Sources */,
+				B105BAD01E49404D00C314B4 /* Localizable.swift in Sources */,
+				B105BACC1E49364600C314B4 /* UIColor+Hexa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		B105BAD61E4940BC00C314B4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B105BAD51E4940BC00C314B4 /* Base */,
+				B105BAD71E4940BF00C314B4 /* en */,
+				B105BADA1E4940CF00C314B4 /* pt-BR */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		B1A80A6D1E47CF0E00A611F2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B1A80A6E1E47CF0E00A611F2 /* Base */,
+				B105BAD91E4940CE00C314B4 /* pt-BR */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -156,6 +406,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				B1A80A731E47CF0E00A611F2 /* Base */,
+				B105BAD81E4940CE00C314B4 /* pt-BR */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -167,6 +418,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -216,6 +468,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -256,6 +509,7 @@
 		};
 		B1A80A791E47CF0E00A611F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF9407949D8338B3EDC98019 /* Pods-HotmartTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HotmartTest/Info.plist;
@@ -268,6 +522,7 @@
 		};
 		B1A80A7A1E47CF0E00A611F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC4A3113A187EA4230E81D74 /* Pods-HotmartTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HotmartTest/Info.plist;
@@ -297,6 +552,7 @@
 				B1A80A7A1E47CF0E00A611F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

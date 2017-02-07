@@ -1,0 +1,15 @@
+
+/* Class = "UIViewController"; title = "Dashboard"; ObjectID = "8Kr-Lv-v6y"; */
+"8Kr-Lv-v6y.title" = "Dashboard";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "8hy-j3-c8k"; */
+"8hy-j3-c8k.text" = "-";
+
+/* Class = "UILabel"; text = "Main"; ObjectID = "T5v-Dp-cLi"; */
+"T5v-Dp-cLi.text" = "Main";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "TN9-cc-HvX"; */
+"TN9-cc-HvX.text" = "-";
+
+/* Class = "UINavigationController"; title = "Dashboard"; ObjectID = "e8q-P8-nCi"; */
+"e8q-P8-nCi.title" = "Dashboard";

@@ -1,25 +1,24 @@
 //
-//  ViewController.swift
+//  StoreViewController.swift
 //  HotmartTest
 //
-//  Created by Tiago Braga on 05/02/17.
+//  Created by Tiago Braga on 06/02/17.
 //  Copyright © 2017 Tiago Braga. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class SalesViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        self.title = Localizable.string(forKey: "title_sales")
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        print("didReceiveMemoryWarning");
     }
 
-
 }
-
