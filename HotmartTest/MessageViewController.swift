@@ -15,7 +15,7 @@ class MessageViewController: BaseViewController {
 
         self.title = Localizable.string(forKey: "title_messages")
         
-        self.customColorNavigationBar(Style.Color.blue, extendNavigationBar: true)
+        self.customColorNavigationBar(Style.Color.yellow, extendNavigationBar: true)
     }
 
     override func didReceiveMemoryWarning() {

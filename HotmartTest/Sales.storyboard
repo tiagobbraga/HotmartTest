@@ -20,7 +20,21 @@
                     <view key="view" contentMode="scaleToFill" id="XT4-PK-dsb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tj6-n5-PTS">
+                                <rect key="frame" x="0.0" y="64" width="375" height="140"/>
+                                <color key="backgroundColor" red="0.28627450980392155" green="0.50980392156862742" blue="0.77254901960784317" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="wcE-dg-BAS"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tj6-n5-PTS" firstAttribute="leading" secondItem="XT4-PK-dsb" secondAttribute="leading" id="OII-lX-t9T"/>
+                            <constraint firstAttribute="trailing" secondItem="tj6-n5-PTS" secondAttribute="trailing" id="lVl-M5-xag"/>
+                            <constraint firstItem="tj6-n5-PTS" firstAttribute="top" secondItem="UfN-51-UY0" secondAttribute="bottom" id="ns8-q1-YAy"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="YYR-th-9eQ"/>
                 </viewController>

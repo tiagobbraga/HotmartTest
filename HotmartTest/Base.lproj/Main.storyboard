@@ -41,7 +41,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6ck-iu-5W2">
                                 <rect key="frame" x="0.0" y="64" width="375" height="140"/>
-                                <color key="backgroundColor" red="0.81568627450980391" green="0.30588235294117649" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.81568627450980391" green="0.30588235294117649" blue="0.16470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="140" id="2pj-mC-NxE"/>
                                 </constraints>
@@ -66,7 +66,7 @@
         <!--Navigation Controller-->
         <scene sceneID="Cfg-nI-zFM">
             <objects>
-                <navigationController storyboardIdentifier="Dashboard" automaticallyAdjustsScrollViewInsets="NO" id="e8q-P8-nCi" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="Main" automaticallyAdjustsScrollViewInsets="NO" id="e8q-P8-nCi" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="OrQ-M5-3Um">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>

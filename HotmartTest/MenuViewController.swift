@@ -72,7 +72,21 @@ extension MenuViewController: UITableViewDataSource {
 extension MenuViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        self.slideMenuController()?.changeMainViewController(<#T##mainViewController: UIViewController##UIViewController#>, close: <#T##Bool#>)
+        var storyboard: UIStoryboard? = nil
+        
+        switch indexPath.row {
+        case 1:
+            storyboard = AppStoryboard.Sales.instance
+        case 4:
+            storyboard = AppStoryboard.Message.instance
+        default:
+            storyboard = AppStoryboard.Dashboard.instance
+        }
+        
+        if storyboard != nil {
+            let controller = storyboard!.instantiateViewController(withIdentifier: "Main")
+            self.slideMenuController()?.changeMainViewController(controller, close: true)
+        }
     }
     
 }

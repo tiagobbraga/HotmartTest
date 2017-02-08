@@ -14,6 +14,8 @@ class SalesViewController: BaseViewController {
         super.viewDidLoad()
 
         self.title = Localizable.string(forKey: "title_sales")
+        
+        self.customColorNavigationBar(Style.Color.blue, extendNavigationBar: true)
     }
 
     override func didReceiveMemoryWarning() {

@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Menu View Controller-->
+        <!--Message View Controller-->
         <scene sceneID="jyG-2y-EYB">
             <objects>
-                <viewController id="PRl-dH-8L8" customClass="MenuViewController" customModule="HotmartTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="PRl-dH-8L8" customClass="MessageViewController" customModule="HotmartTest" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pJv-Ss-ssf"/>
                         <viewControllerLayoutGuide type="bottom" id="m8V-iD-wW8"/>
@@ -20,7 +20,21 @@
                     <view key="view" contentMode="scaleToFill" id="YtU-Xg-Ex8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9fy-eQ-VAR">
+                                <rect key="frame" x="0.0" y="64" width="375" height="140"/>
+                                <color key="backgroundColor" red="0.90980392156862744" green="0.67843137254901964" blue="0.27058823529411763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="AA2-AL-wjx"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9fy-eQ-VAR" firstAttribute="leading" secondItem="YtU-Xg-Ex8" secondAttribute="leading" id="MhK-1W-dvM"/>
+                            <constraint firstItem="9fy-eQ-VAR" firstAttribute="top" secondItem="pJv-Ss-ssf" secondAttribute="bottom" id="UaH-PV-GKQ"/>
+                            <constraint firstAttribute="trailing" secondItem="9fy-eQ-VAR" secondAttribute="trailing" id="h44-z7-SQ8"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="rUh-z1-4bz"/>
                 </viewController>

@@ -16,7 +16,7 @@ class DashboardViewController: BaseViewController {
         
         self.title = Localizable.string(forKey: "title_dashboard")
         
-        self.customColorNavigationBar(self.buceta.backgroundColor!, extendNavigationBar: true)
+        self.customColorNavigationBar(Style.Color.orange, extendNavigationBar: true)
     }
 
     override func didReceiveMemoryWarning() {
