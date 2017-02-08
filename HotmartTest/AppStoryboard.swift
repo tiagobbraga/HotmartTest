@@ -9,7 +9,8 @@
 import UIKit
 
 enum AppStoryboard : String {
-    case Dashboard = "Main"
+    case Main = "Main"
+    case Dashboard = "Dashboard"
     case Message = "Message"
     case Sales = "Sales"
     

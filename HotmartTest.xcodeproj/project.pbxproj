@@ -22,6 +22,10 @@
 		B105BAD01E49404D00C314B4 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B105BACF1E49404D00C314B4 /* Localizable.swift */; };
 		B105BAD41E4940BC00C314B4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B105BAD61E4940BC00C314B4 /* Localizable.strings */; };
 		B18F17581E4AABF6006EF025 /* AppStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18F17571E4AABF6006EF025 /* AppStoryboard.swift */; };
+		B18F175A1E4B7C6B006EF025 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B18F17591E4B7C6B006EF025 /* Dashboard.storyboard */; };
+		B18F175C1E4B7DF0006EF025 /* SaleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B18F175B1E4B7DF0006EF025 /* SaleCell.xib */; };
+		B18F175E1E4B8223006EF025 /* SaleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18F175D1E4B8223006EF025 /* SaleTableViewCell.swift */; };
+		B18F17611E4B8380006EF025 /* Sale.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18F17601E4B8380006EF025 /* Sale.swift */; };
 		B1A80A6A1E47CF0E00A611F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A80A691E47CF0E00A611F2 /* AppDelegate.swift */; };
 		B1A80A6F1E47CF0E00A611F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A80A6D1E47CF0E00A611F2 /* Main.storyboard */; };
 		B1A80A711E47CF0E00A611F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1A80A701E47CF0E00A611F2 /* Assets.xcassets */; };
@@ -55,6 +59,10 @@
 		B105BAD91E4940CE00C314B4 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
 		B105BADA1E4940CF00C314B4 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		B18F17571E4AABF6006EF025 /* AppStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoryboard.swift; sourceTree = "<group>"; };
+		B18F17591E4B7C6B006EF025 /* Dashboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		B18F175B1E4B7DF0006EF025 /* SaleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SaleCell.xib; sourceTree = "<group>"; };
+		B18F175D1E4B8223006EF025 /* SaleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaleTableViewCell.swift; sourceTree = "<group>"; };
+		B18F17601E4B8380006EF025 /* Sale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sale.swift; sourceTree = "<group>"; };
 		B1A80A661E47CF0E00A611F2 /* HotmartTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotmartTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A80A691E47CF0E00A611F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1A80A6E1E47CF0E00A611F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -102,9 +110,9 @@
 		B105BAB91E4923B500C314B4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B18F175F1E4B8372006EF025 /* Data */,
 				B18F17561E4AABE7006EF025 /* Enum */,
 				B105BAD11E49404F00C314B4 /* Struct */,
-				B105BAB71E4923B100C314B4 /* Menu.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -144,6 +152,15 @@
 				B18F17571E4AABF6006EF025 /* AppStoryboard.swift */,
 			);
 			name = Enum;
+			sourceTree = "<group>";
+		};
+		B18F175F1E4B8372006EF025 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B105BAB71E4923B100C314B4 /* Menu.swift */,
+				B18F17601E4B8380006EF025 /* Sale.swift */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 		B1A80A5D1E47CF0E00A611F2 = {
@@ -186,6 +203,7 @@
 				B1A80A841E47DC0C00A611F2 /* XIBs */,
 				B1A80A8B1E47DCF600A611F2 /* HeaderMenuView.swift */,
 				B105BAB51E49227300C314B4 /* ItemMenuTableViewCell.swift */,
+				B18F175D1E4B8223006EF025 /* SaleTableViewCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -203,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				B105BAB31E491ED300C314B4 /* ItemMenuCell.xib */,
+				B18F175B1E4B7DF0006EF025 /* SaleCell.xib */,
 			);
 			name = XIBs;
 			sourceTree = "<group>";
@@ -214,6 +233,7 @@
 				B1A80A6D1E47CF0E00A611F2 /* Main.storyboard */,
 				B105BAC51E49321400C314B4 /* Message.storyboard */,
 				B105BAC71E49323C00C314B4 /* Sales.storyboard */,
+				B18F17591E4B7C6B006EF025 /* Dashboard.storyboard */,
 			);
 			name = Storyboard;
 			sourceTree = "<group>";
@@ -296,7 +316,9 @@
 				B105BAC81E49323C00C314B4 /* Sales.storyboard in Resources */,
 				B1A80A741E47CF0E00A611F2 /* LaunchScreen.storyboard in Resources */,
 				B105BAB41E491ED300C314B4 /* ItemMenuCell.xib in Resources */,
+				B18F175A1E4B7C6B006EF025 /* Dashboard.storyboard in Resources */,
 				B105BAD41E4940BC00C314B4 /* Localizable.strings in Resources */,
+				B18F175C1E4B7DF0006EF025 /* SaleCell.xib in Resources */,
 				B105BAC61E49321400C314B4 /* Message.storyboard in Resources */,
 				B1A80A711E47CF0E00A611F2 /* Assets.xcassets in Resources */,
 				B1A80A6F1E47CF0E00A611F2 /* Main.storyboard in Resources */,
@@ -374,6 +396,7 @@
 			files = (
 				B1A80A6A1E47CF0E00A611F2 /* AppDelegate.swift in Sources */,
 				B1A80A8C1E47DCF600A611F2 /* HeaderMenuView.swift in Sources */,
+				B18F175E1E4B8223006EF025 /* SaleTableViewCell.swift in Sources */,
 				B105BAC21E4931E100C314B4 /* SalesViewController.swift in Sources */,
 				B105BACE1E49395300C314B4 /* UIViewController+Default.swift in Sources */,
 				B105BAB81E4923B100C314B4 /* Menu.swift in Sources */,
@@ -383,6 +406,7 @@
 				B1A80A941E47ECBB00A611F2 /* MainViewController.swift in Sources */,
 				B105BAC01E49317E00C314B4 /* BaseViewController.swift in Sources */,
 				B105BAB61E49227300C314B4 /* ItemMenuTableViewCell.swift in Sources */,
+				B18F17611E4B8380006EF025 /* Sale.swift in Sources */,
 				B105BABE1E49300000C314B4 /* DashboardViewController.swift in Sources */,
 				B1A80A911E47DE5100A611F2 /* UIImageView+Proxy.swift in Sources */,
 				B105BAC41E4931FD00C314B4 /* MessageViewController.swift in Sources */,

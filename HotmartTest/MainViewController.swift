@@ -12,12 +12,9 @@ import SlideMenuControllerSwift
 class MainViewController: SlideMenuController {
     
     override func awakeFromNib() {
-        if let controller = self.storyboard?.instantiateViewController(withIdentifier: "Main") {
-            self.mainViewController = controller
-        }
-        if let controller = self.storyboard?.instantiateViewController(withIdentifier: "Menu") {
-            self.leftViewController = controller
-        }
+        
+        self.mainViewController = AppStoryboard.Dashboard.instance.instantiateViewController(withIdentifier: "Main")
+        self.leftViewController = AppStoryboard.Main.instance.instantiateViewController(withIdentifier: "Menu")
         
         SlideMenuOptions.contentViewScale = 1
         SlideMenuOptions.contentViewOpacity = 0.3

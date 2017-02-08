@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Dashboard View Controller-->
+        <scene sceneID="cyL-4z-rBB">
+            <objects>
+                <viewController id="LWF-kC-4SB" customClass="DashboardViewController" customModule="HotmartTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UkM-Ak-JLd"/>
+                        <viewControllerLayoutGuide type="bottom" id="Imt-d9-T43"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0t8-R1-F6t">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AFk-FM-tcs">
+                                <rect key="frame" x="0.0" y="64" width="375" height="140"/>
+                                <color key="backgroundColor" red="0.81568627449999997" green="0.30588235289999999" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="64a-kk-H7J"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="AFk-FM-tcs" firstAttribute="top" secondItem="UkM-Ak-JLd" secondAttribute="bottom" id="41c-Sn-zqb"/>
+                            <constraint firstItem="AFk-FM-tcs" firstAttribute="leading" secondItem="0t8-R1-F6t" secondAttribute="leading" id="DCA-sD-t9Q"/>
+                            <constraint firstAttribute="trailing" secondItem="AFk-FM-tcs" secondAttribute="trailing" id="Yd2-px-TNK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="P9m-Cy-xR8"/>
+                    <connections>
+                        <outlet property="buceta" destination="AFk-FM-tcs" id="JfG-nC-kiZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xQ0-l1-mDm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1488" y="-140"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="oxh-bD-ZVX">
+            <objects>
+                <navigationController storyboardIdentifier="Main" automaticallyAdjustsScrollViewInsets="NO" id="SWM-44-H1n" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8qp-Af-PzR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="LWF-kC-4SB" kind="relationship" relationship="rootViewController" id="ym1-K7-qzA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yqf-sC-BfO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="926" y="-139"/>
+        </scene>
+    </scenes>
+</document>

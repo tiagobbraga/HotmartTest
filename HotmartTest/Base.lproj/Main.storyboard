@@ -27,60 +27,6 @@
             </objects>
             <point key="canvasLocation" x="87" y="215"/>
         </scene>
-        <!--Dashboard View Controller-->
-        <scene sceneID="5If-av-hyr">
-            <objects>
-                <viewController id="8Kr-Lv-v6y" customClass="DashboardViewController" customModule="HotmartTest" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="OTF-RC-4T2"/>
-                        <viewControllerLayoutGuide type="bottom" id="7Y8-zu-ZkC"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="lVa-bX-rP8">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6ck-iu-5W2">
-                                <rect key="frame" x="0.0" y="64" width="375" height="140"/>
-                                <color key="backgroundColor" red="0.81568627450980391" green="0.30588235294117649" blue="0.16470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="140" id="2pj-mC-NxE"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="6ck-iu-5W2" secondAttribute="trailing" id="425-oR-IOh"/>
-                            <constraint firstItem="6ck-iu-5W2" firstAttribute="leading" secondItem="lVa-bX-rP8" secondAttribute="leading" id="AZG-Ri-lL3"/>
-                            <constraint firstItem="6ck-iu-5W2" firstAttribute="top" secondItem="OTF-RC-4T2" secondAttribute="bottom" id="tKf-ZM-WgS"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="MqU-NI-x3g"/>
-                    <connections>
-                        <outlet property="buceta" destination="6ck-iu-5W2" id="0u9-nf-YUr"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="v9E-8x-BCF" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1865" y="-139"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="Cfg-nI-zFM">
-            <objects>
-                <navigationController storyboardIdentifier="Main" automaticallyAdjustsScrollViewInsets="NO" id="e8q-P8-nCi" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="OrQ-M5-3Um">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="8Kr-Lv-v6y" kind="relationship" relationship="rootViewController" id="Zns-Pa-Lf6"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="M1T-Gq-YYK" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="926" y="-139"/>
-        </scene>
         <!--Menu View Controller-->
         <scene sceneID="fOt-pn-vlO">
             <objects>
