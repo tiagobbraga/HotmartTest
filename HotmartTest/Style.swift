@@ -15,7 +15,7 @@ struct Style {
         static let black: UIColor = UIColor.black
         
         static let yellow: UIColor = UIColor(red: 232, green: 173, blue: 69)
-        static let orange: UIColor = UIColor(red: 208, green: 78, blue: 42)
+        static let orange: UIColor = UIColor(red: 240, green: 78, blue: 36)
         static let blue: UIColor = UIColor(red: 73, green: 130, blue: 197)
         
         static let purple: UIColor = UIColor(red: 95, green: 72, blue: 140)

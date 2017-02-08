@@ -26,6 +26,11 @@
 		B18F175C1E4B7DF0006EF025 /* SaleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B18F175B1E4B7DF0006EF025 /* SaleCell.xib */; };
 		B18F175E1E4B8223006EF025 /* SaleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18F175D1E4B8223006EF025 /* SaleTableViewCell.swift */; };
 		B18F17611E4B8380006EF025 /* Sale.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18F17601E4B8380006EF025 /* Sale.swift */; };
+		B18F17631E4B93DC006EF025 /* CCCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18F17621E4B93DC006EF025 /* CCCViewController.swift */; };
+		B18F17651E4B94D8006EF025 /* Array+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18F17641E4B94D8006EF025 /* Array+Utils.swift */; };
+		B18F17681E4B9E21006EF025 /* MessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18F17661E4B9E21006EF025 /* MessageCollectionViewCell.swift */; };
+		B18F17691E4B9E21006EF025 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B18F17671E4B9E21006EF025 /* MessageCell.xib */; };
+		B18F176B1E4BA01D006EF025 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18F176A1E4BA01D006EF025 /* Message.swift */; };
 		B1A80A6A1E47CF0E00A611F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A80A691E47CF0E00A611F2 /* AppDelegate.swift */; };
 		B1A80A6F1E47CF0E00A611F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A80A6D1E47CF0E00A611F2 /* Main.storyboard */; };
 		B1A80A711E47CF0E00A611F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1A80A701E47CF0E00A611F2 /* Assets.xcassets */; };
@@ -63,6 +68,11 @@
 		B18F175B1E4B7DF0006EF025 /* SaleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SaleCell.xib; sourceTree = "<group>"; };
 		B18F175D1E4B8223006EF025 /* SaleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaleTableViewCell.swift; sourceTree = "<group>"; };
 		B18F17601E4B8380006EF025 /* Sale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sale.swift; sourceTree = "<group>"; };
+		B18F17621E4B93DC006EF025 /* CCCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCCViewController.swift; sourceTree = "<group>"; };
+		B18F17641E4B94D8006EF025 /* Array+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Utils.swift"; sourceTree = "<group>"; };
+		B18F17661E4B9E21006EF025 /* MessageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCollectionViewCell.swift; sourceTree = "<group>"; };
+		B18F17671E4B9E21006EF025 /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		B18F176A1E4BA01D006EF025 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		B1A80A661E47CF0E00A611F2 /* HotmartTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotmartTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A80A691E47CF0E00A611F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1A80A6E1E47CF0E00A611F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -141,6 +151,7 @@
 		B105BADC1E49418A00C314B4 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				B18F17621E4B93DC006EF025 /* CCCViewController.swift */,
 				B105BABF1E49317E00C314B4 /* BaseViewController.swift */,
 			);
 			name = Base;
@@ -159,6 +170,7 @@
 			children = (
 				B105BAB71E4923B100C314B4 /* Menu.swift */,
 				B18F17601E4B8380006EF025 /* Sale.swift */,
+				B18F176A1E4BA01D006EF025 /* Message.swift */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -204,6 +216,7 @@
 				B1A80A8B1E47DCF600A611F2 /* HeaderMenuView.swift */,
 				B105BAB51E49227300C314B4 /* ItemMenuTableViewCell.swift */,
 				B18F175D1E4B8223006EF025 /* SaleTableViewCell.swift */,
+				B18F17661E4B9E21006EF025 /* MessageCollectionViewCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -222,6 +235,7 @@
 			children = (
 				B105BAB31E491ED300C314B4 /* ItemMenuCell.xib */,
 				B18F175B1E4B7DF0006EF025 /* SaleCell.xib */,
+				B18F17671E4B9E21006EF025 /* MessageCell.xib */,
 			);
 			name = XIBs;
 			sourceTree = "<group>";
@@ -241,6 +255,7 @@
 		B1A80A921E47DE5400A611F2 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				B18F17641E4B94D8006EF025 /* Array+Utils.swift */,
 				B105BACD1E49395300C314B4 /* UIViewController+Default.swift */,
 				B1A80A8E1E47DE5100A611F2 /* UIView+Utils.swift */,
 				B1A80A8F1E47DE5100A611F2 /* UIImageView+Proxy.swift */,
@@ -317,6 +332,7 @@
 				B1A80A741E47CF0E00A611F2 /* LaunchScreen.storyboard in Resources */,
 				B105BAB41E491ED300C314B4 /* ItemMenuCell.xib in Resources */,
 				B18F175A1E4B7C6B006EF025 /* Dashboard.storyboard in Resources */,
+				B18F17691E4B9E21006EF025 /* MessageCell.xib in Resources */,
 				B105BAD41E4940BC00C314B4 /* Localizable.strings in Resources */,
 				B18F175C1E4B7DF0006EF025 /* SaleCell.xib in Resources */,
 				B105BAC61E49321400C314B4 /* Message.storyboard in Resources */,
@@ -398,20 +414,24 @@
 				B1A80A8C1E47DCF600A611F2 /* HeaderMenuView.swift in Sources */,
 				B18F175E1E4B8223006EF025 /* SaleTableViewCell.swift in Sources */,
 				B105BAC21E4931E100C314B4 /* SalesViewController.swift in Sources */,
+				B18F17681E4B9E21006EF025 /* MessageCollectionViewCell.swift in Sources */,
 				B105BACE1E49395300C314B4 /* UIViewController+Default.swift in Sources */,
 				B105BAB81E4923B100C314B4 /* Menu.swift in Sources */,
 				B1A80A901E47DE5100A611F2 /* UIView+Utils.swift in Sources */,
 				B18F17581E4AABF6006EF025 /* AppStoryboard.swift in Sources */,
 				B105BACA1E49345100C314B4 /* Style.swift in Sources */,
 				B1A80A941E47ECBB00A611F2 /* MainViewController.swift in Sources */,
+				B18F17631E4B93DC006EF025 /* CCCViewController.swift in Sources */,
 				B105BAC01E49317E00C314B4 /* BaseViewController.swift in Sources */,
 				B105BAB61E49227300C314B4 /* ItemMenuTableViewCell.swift in Sources */,
 				B18F17611E4B8380006EF025 /* Sale.swift in Sources */,
 				B105BABE1E49300000C314B4 /* DashboardViewController.swift in Sources */,
 				B1A80A911E47DE5100A611F2 /* UIImageView+Proxy.swift in Sources */,
+				B18F176B1E4BA01D006EF025 /* Message.swift in Sources */,
 				B105BAC41E4931FD00C314B4 /* MessageViewController.swift in Sources */,
 				B1A80A881E47DC7B00A611F2 /* MenuViewController.swift in Sources */,
 				B105BAD01E49404D00C314B4 /* Localizable.swift in Sources */,
+				B18F17651E4B94D8006EF025 /* Array+Utils.swift in Sources */,
 				B105BACC1E49364600C314B4 /* UIColor+Hexa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

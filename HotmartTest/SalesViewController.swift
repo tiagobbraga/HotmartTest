@@ -26,10 +26,12 @@ class SalesViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        self.title = Localizable.string(forKey: "title_sales")
         
-        self.customColorNavigationBar(Style.Color.blue, extendNavigationBar: true)
+        if self.parent?.superclass != DashboardViewController.superclass() {
+            self.title = Localizable.string(forKey: "title_sales")
+            self.customColorNavigationBar(Style.Color.blue, extendNavigationBar: true)
+        }
+        
         self.configTableView()
     }
 
