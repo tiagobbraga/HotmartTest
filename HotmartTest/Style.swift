@@ -41,4 +41,20 @@ struct Style {
         nva.barTintColor = Color.white
     }
     
+    static func randomColor() -> UIColor {
+        let colors: [UIColor] = [
+            Color.yellow,
+            Color.orange,
+            Color.blue,
+            Color.purple,
+            Color.green,
+            Color.pink,
+            Color.grey_dark,
+            Color.grey_light
+        ]
+        
+        let randomIndex = Int(arc4random_uniform(UInt32(colors.count)))
+        return colors[randomIndex]
+    }
+    
 }

@@ -15,3 +15,15 @@ struct Message {
     
 }
 
+extension Message {
+    
+    func firstChar() -> Character {
+        if self.name != nil {
+            return self.name!.characters.first!
+        }
+        
+        return Character("")
+    }
+    
+}
+

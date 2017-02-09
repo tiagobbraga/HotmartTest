@@ -31,10 +31,18 @@
                         <color key="textColor" red="0.56862745098039214" green="0.56862745098039214" blue="0.56862745098039214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="F" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JdD-Ub-Ifw">
+                        <rect key="frame" x="25.5" y="30.5" width="23" height="43"/>
+                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="37"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
             </view>
             <constraints>
+                <constraint firstItem="JdD-Ub-Ifw" firstAttribute="centerX" secondItem="Tyz-D8-829" secondAttribute="centerX" id="2RK-Vx-qxc"/>
                 <constraint firstItem="Tyz-D8-829" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="GNA-3p-EVJ"/>
+                <constraint firstItem="JdD-Ub-Ifw" firstAttribute="centerY" secondItem="Tyz-D8-829" secondAttribute="centerY" id="Ifs-My-dIW"/>
                 <constraint firstItem="zRH-1A-cN7" firstAttribute="top" secondItem="Tyz-D8-829" secondAttribute="bottom" constant="7" id="d1c-bC-viG"/>
                 <constraint firstAttribute="trailing" secondItem="Tyz-D8-829" secondAttribute="trailing" id="hVu-Zk-Czv"/>
                 <constraint firstItem="Tyz-D8-829" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="15" id="kVR-Q0-QQA"/>
@@ -43,6 +51,7 @@
             </constraints>
             <size key="customSize" width="120" height="119"/>
             <connections>
+                <outlet property="firstCharNameLabel" destination="JdD-Ub-Ifw" id="0Oe-U2-REz"/>
                 <outlet property="nameLabel" destination="zRH-1A-cN7" id="rzS-1V-FXx"/>
                 <outlet property="photoImageView" destination="Tyz-D8-829" id="LrA-fT-gpR"/>
             </connections>

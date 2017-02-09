@@ -12,22 +12,19 @@ class MessageCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var photoImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var firstCharNameLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        self.firstCharNameLabel.isHidden = true
     }
     
     // Public Methods
     func populateMessage(_ message: Message) {
-        if message.photo != nil {
-            self.photoImageView.cicleMask(message.photo!)
-        } else {
-            // color bg
-            // first char
-        }
-        
+        self.photoImageView.cicleMask(message.photo, withBackgroundColor: Style.randomColor())
         self.nameLabel.text = message.name
+        self.firstCharNameLabel.text = String(message.firstChar())
+        self.firstCharNameLabel.isHidden = !(message.photo == nil)
     }
 
 }
