@@ -21,26 +21,47 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9fy-eQ-VAR">
-                                <rect key="frame" x="0.0" y="64" width="375" height="140"/>
-                                <color key="backgroundColor" red="0.90980392156862744" green="0.67843137254901964" blue="0.27058823529411763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="140" id="AA2-AL-wjx"/>
-                                </constraints>
-                            </view>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="TaS-We-PgV">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="27" minimumInteritemSpacing="0.0" id="s8N-zt-ox0">
+                                    <size key="itemSize" width="74" height="140"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="18" minY="10" maxX="18" maxY="10"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="iuJ-R9-4Du">
+                                        <rect key="frame" x="18" y="10" width="74" height="140"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="74" height="140"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="PRl-dH-8L8" id="ArN-Ph-fws"/>
+                                    <outlet property="delegate" destination="PRl-dH-8L8" id="G40-xc-pQP"/>
+                                </connections>
+                            </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="9fy-eQ-VAR" firstAttribute="leading" secondItem="YtU-Xg-Ex8" secondAttribute="leading" id="MhK-1W-dvM"/>
-                            <constraint firstItem="9fy-eQ-VAR" firstAttribute="top" secondItem="pJv-Ss-ssf" secondAttribute="bottom" id="UaH-PV-GKQ"/>
-                            <constraint firstAttribute="trailing" secondItem="9fy-eQ-VAR" secondAttribute="trailing" id="h44-z7-SQ8"/>
+                            <constraint firstItem="TaS-We-PgV" firstAttribute="leading" secondItem="YtU-Xg-Ex8" secondAttribute="leading" id="59M-ve-abv"/>
+                            <constraint firstItem="TaS-We-PgV" firstAttribute="top" secondItem="YtU-Xg-Ex8" secondAttribute="top" id="8Ah-se-MM4"/>
+                            <constraint firstAttribute="trailing" secondItem="TaS-We-PgV" secondAttribute="trailing" id="eiQ-f3-NKv"/>
+                            <constraint firstItem="m8V-iD-wW8" firstAttribute="top" secondItem="TaS-We-PgV" secondAttribute="bottom" id="w88-R4-GbL"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="rUh-z1-4bz"/>
+                    <connections>
+                        <outlet property="collectionView" destination="TaS-We-PgV" id="5FT-Bj-AZs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tox-ZY-YWH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1033" y="159"/>
+            <point key="canvasLocation" x="1032.8" y="158.77061469265368"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="lLE-WU-lD1">

@@ -9,6 +9,23 @@
 import UIKit
 
 class MessageViewController: BaseViewController {
+    
+    let itemsMessage: [Message] = [
+        Message(photo: UIImage(named: "persona")!, name: "Tiago Braga"),
+        Message(photo: nil, name: "Valeria Cirqueira"),
+        Message(photo: nil, name: "Maria Carol"),
+        Message(photo: nil, name: "Flávia de Alcântrara Cirqueira"),
+        Message(photo: nil, name: "Ana Paula Pereira"),
+        Message(photo: UIImage(named: "persona")!, name: "Tiago Braga"),
+        Message(photo: nil, name: "Valeria Cirqueira"),
+        Message(photo: nil, name: "Maria Carol"),
+        Message(photo: nil, name: "Flávia de Alcântrara Cirqueira"),
+        Message(photo: nil, name: "Ana Paula Pereira")
+    ]
+    
+    static let ReuseCell: String = "MessageCell"
+    
+    @IBOutlet weak var collectionView: UICollectionView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,11 +33,40 @@ class MessageViewController: BaseViewController {
         self.title = Localizable.string(forKey: "title_messages")
         
         self.customColorNavigationBar(Style.Color.yellow, extendNavigationBar: true)
+        self.configCollectionView()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         print("didReceiveMemoryWarning");
     }
+    
+    // MARK: Public Methods
+    
+    // MARK: Private Methods
+    private func configCollectionView() {
+        self.collectionView.register(UIView.loadNib(MessageViewController.ReuseCell), forCellWithReuseIdentifier: MessageViewController.ReuseCell)
+    }
+    
+    // MARK: Notifications
+    
+    // MARK: Actions
+    
+}
 
+extension MessageViewController: UICollectionViewDataSource {
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return self.itemsMessage.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell: MessageCollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: MessageViewController.ReuseCell, for: indexPath) as! MessageCollectionViewCell
+        
+        let message = self.itemsMessage[indexPath.row]
+        cell.populateMessage(message)
+        
+        return cell
+    }
+    
 }
