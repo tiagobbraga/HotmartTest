@@ -21,6 +21,7 @@ class MessageCollectionViewCell: UICollectionViewCell {
     
     // Public Methods
     func populateMessage(_ message: Message) {
+        self.photoImageView.image = UIImage()
         self.photoImageView.cicleMask(message.photo, withBackgroundColor: Style.randomColor())
         self.nameLabel.text = message.name
         self.firstCharNameLabel.text = String(message.firstChar())
