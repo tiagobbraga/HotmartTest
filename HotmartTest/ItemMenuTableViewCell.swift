@@ -12,16 +12,11 @@ class ItemMenuTableViewCell: UITableViewCell {
 
     @IBOutlet weak var iconImageView: UIImageView!
     @IBOutlet weak var nameMenuLabel: UILabel!
+    @IBOutlet weak var tagView: TagView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+        self.tagView.valueLabel.text = ""
     }
 
 }

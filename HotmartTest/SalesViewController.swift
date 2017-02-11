@@ -23,6 +23,7 @@ class SalesViewController: BaseViewController {
     static let ReuseCell: String = "SaleCell"
 
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var heightCustomAccess: NSLayoutConstraint!
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="m8B-iP-u3b" customClass="ItemMenuTableViewCell" customModule="HotmartTest" customModuleProvider="target">
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="m8B-iP-u3b" customClass="ItemMenuTableViewCell" customModule="HotmartTest" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="m8B-iP-u3b" id="rd7-uW-jcz">
@@ -32,17 +32,43 @@
                         <color key="textColor" red="0.32156862745098036" green="0.32156862745098036" blue="0.32156862745098036" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fCC-KK-fyi" customClass="TagView" customModule="HotmartTest" customModuleProvider="target">
+                        <rect key="frame" x="327" y="14" width="38" height="26"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Odm-dv-Czv">
+                                <rect key="frame" x="6" y="4" width="26" height="18"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90980392160000001" green="0.67843137249999996" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Odm-dv-Czv" firstAttribute="top" secondItem="fCC-KK-fyi" secondAttribute="top" constant="4" id="94n-ym-8PS"/>
+                            <constraint firstItem="Odm-dv-Czv" firstAttribute="centerY" secondItem="fCC-KK-fyi" secondAttribute="centerY" id="WEG-fi-yma"/>
+                            <constraint firstItem="Odm-dv-Czv" firstAttribute="leading" secondItem="fCC-KK-fyi" secondAttribute="leading" constant="6" id="awz-sP-wHs"/>
+                            <constraint firstAttribute="trailing" secondItem="Odm-dv-Czv" secondAttribute="trailing" constant="6" id="n4M-Ps-ZDN"/>
+                            <constraint firstAttribute="bottom" secondItem="Odm-dv-Czv" secondAttribute="bottom" constant="4" id="wiI-8Q-s9b"/>
+                            <constraint firstItem="Odm-dv-Czv" firstAttribute="centerX" secondItem="fCC-KK-fyi" secondAttribute="centerX" id="y1f-T6-mJP"/>
+                        </constraints>
+                        <connections>
+                            <outlet property="valueLabel" destination="Odm-dv-Czv" id="RaB-SC-eEy"/>
+                        </connections>
+                    </view>
                 </subviews>
                 <constraints>
                     <constraint firstItem="7VR-IZ-ZsF" firstAttribute="centerY" secondItem="plh-rv-t1s" secondAttribute="centerY" id="AnD-eo-g1z"/>
                     <constraint firstItem="plh-rv-t1s" firstAttribute="centerY" secondItem="rd7-uW-jcz" secondAttribute="centerY" id="F6B-9O-SnQ"/>
                     <constraint firstItem="plh-rv-t1s" firstAttribute="leading" secondItem="7VR-IZ-ZsF" secondAttribute="trailing" constant="30" id="GXj-a8-nO1"/>
+                    <constraint firstItem="fCC-KK-fyi" firstAttribute="centerY" secondItem="rd7-uW-jcz" secondAttribute="centerY" id="QZu-DB-uZV"/>
                     <constraint firstItem="7VR-IZ-ZsF" firstAttribute="leading" secondItem="rd7-uW-jcz" secondAttribute="leading" constant="9" id="efA-1h-s0X"/>
+                    <constraint firstAttribute="trailing" secondItem="fCC-KK-fyi" secondAttribute="trailing" constant="10" id="tEs-EB-fln"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
                 <outlet property="iconImageView" destination="7VR-IZ-ZsF" id="TJe-4g-hYr"/>
                 <outlet property="nameMenuLabel" destination="plh-rv-t1s" id="cVM-g3-RL7"/>
+                <outlet property="tagView" destination="fCC-KK-fyi" id="Xg2-v5-ncf"/>
             </connections>
             <point key="canvasLocation" x="-235" y="128"/>
         </tableViewCell>

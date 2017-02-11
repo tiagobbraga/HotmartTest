@@ -63,6 +63,20 @@ extension MenuViewController: UITableViewDataSource {
         let menu: Menu = self.itemsMenu[indexPath.row]
         cell.iconImageView!.image = menu.icon!
         cell.nameMenuLabel!.text = menu.name!
+        cell.backgroundColor = Style.Color.white
+        
+        switch indexPath.row {
+        case 3:
+            cell.tagView.valueTag = "121"
+        case 4:
+            cell.tagView.valueTag = "+50"
+            cell.backgroundColor = Style.Color.almost_white
+        case 5:
+            cell.tagView.valueTag = "15"
+            cell.backgroundColor = Style.Color.almost_white
+        default:
+            cell.tagView.valueTag = ""
+        }
         
         return cell
     }

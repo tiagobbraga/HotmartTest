@@ -21,12 +21,14 @@
 		B105BACE1E49395300C314B4 /* UIViewController+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = B105BACD1E49395300C314B4 /* UIViewController+Default.swift */; };
 		B105BAD01E49404D00C314B4 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B105BACF1E49404D00C314B4 /* Localizable.swift */; };
 		B105BAD41E4940BC00C314B4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B105BAD61E4940BC00C314B4 /* Localizable.strings */; };
+		B10DC2891E4FD6A50098B47F /* TagView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B10DC2881E4FD6A50098B47F /* TagView.xib */; };
+		B163BB611E4FB3DE004B3BB7 /* CustomAccessBottomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B163BB601E4FB3DE004B3BB7 /* CustomAccessBottomViewController.swift */; };
+		B163BB631E4FC62F004B3BB7 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B163BB621E4FC62F004B3BB7 /* TagView.swift */; };
 		B18F17581E4AABF6006EF025 /* AppStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18F17571E4AABF6006EF025 /* AppStoryboard.swift */; };
 		B18F175A1E4B7C6B006EF025 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B18F17591E4B7C6B006EF025 /* Dashboard.storyboard */; };
 		B18F175C1E4B7DF0006EF025 /* SaleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B18F175B1E4B7DF0006EF025 /* SaleCell.xib */; };
 		B18F175E1E4B8223006EF025 /* SaleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18F175D1E4B8223006EF025 /* SaleTableViewCell.swift */; };
 		B18F17611E4B8380006EF025 /* Sale.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18F17601E4B8380006EF025 /* Sale.swift */; };
-		B18F17631E4B93DC006EF025 /* CCCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18F17621E4B93DC006EF025 /* CCCViewController.swift */; };
 		B18F17651E4B94D8006EF025 /* Array+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18F17641E4B94D8006EF025 /* Array+Utils.swift */; };
 		B18F17681E4B9E21006EF025 /* MessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18F17661E4B9E21006EF025 /* MessageCollectionViewCell.swift */; };
 		B18F17691E4B9E21006EF025 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B18F17671E4B9E21006EF025 /* MessageCell.xib */; };
@@ -63,12 +65,14 @@
 		B105BAD81E4940CE00C314B4 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		B105BAD91E4940CE00C314B4 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
 		B105BADA1E4940CF00C314B4 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		B10DC2881E4FD6A50098B47F /* TagView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagView.xib; sourceTree = "<group>"; };
+		B163BB601E4FB3DE004B3BB7 /* CustomAccessBottomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAccessBottomViewController.swift; sourceTree = "<group>"; };
+		B163BB621E4FC62F004B3BB7 /* TagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
 		B18F17571E4AABF6006EF025 /* AppStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoryboard.swift; sourceTree = "<group>"; };
 		B18F17591E4B7C6B006EF025 /* Dashboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
 		B18F175B1E4B7DF0006EF025 /* SaleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SaleCell.xib; sourceTree = "<group>"; };
 		B18F175D1E4B8223006EF025 /* SaleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaleTableViewCell.swift; sourceTree = "<group>"; };
 		B18F17601E4B8380006EF025 /* Sale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sale.swift; sourceTree = "<group>"; };
-		B18F17621E4B93DC006EF025 /* CCCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCCViewController.swift; sourceTree = "<group>"; };
 		B18F17641E4B94D8006EF025 /* Array+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Utils.swift"; sourceTree = "<group>"; };
 		B18F17661E4B9E21006EF025 /* MessageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCollectionViewCell.swift; sourceTree = "<group>"; };
 		B18F17671E4B9E21006EF025 /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
@@ -151,7 +155,6 @@
 		B105BADC1E49418A00C314B4 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				B18F17621E4B93DC006EF025 /* CCCViewController.swift */,
 				B105BABF1E49317E00C314B4 /* BaseViewController.swift */,
 			);
 			name = Base;
@@ -199,11 +202,11 @@
 				B1A80A701E47CF0E00A611F2 /* Assets.xcassets */,
 				B1A80A691E47CF0E00A611F2 /* AppDelegate.swift */,
 				B1A80A751E47CF0E00A611F2 /* Info.plist */,
+				B105BAD61E4940BC00C314B4 /* Localizable.strings */,
 				B1A80A921E47DE5400A611F2 /* Extension */,
 				B105BAB91E4923B500C314B4 /* Model */,
 				B1A80A7B1E47D2B300A611F2 /* View */,
 				B1A80A7C1E47D2C700A611F2 /* Controller */,
-				B105BAD61E4940BC00C314B4 /* Localizable.strings */,
 			);
 			path = HotmartTest;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				B105BAB51E49227300C314B4 /* ItemMenuTableViewCell.swift */,
 				B18F175D1E4B8223006EF025 /* SaleTableViewCell.swift */,
 				B18F17661E4B9E21006EF025 /* MessageCollectionViewCell.swift */,
+				B163BB621E4FC62F004B3BB7 /* TagView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -226,6 +230,7 @@
 			children = (
 				B105BADC1E49418A00C314B4 /* Base */,
 				B105BADB1E49418600C314B4 /* App */,
+				B163BB601E4FB3DE004B3BB7 /* CustomAccessBottomViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -236,6 +241,7 @@
 				B105BAB31E491ED300C314B4 /* ItemMenuCell.xib */,
 				B18F175B1E4B7DF0006EF025 /* SaleCell.xib */,
 				B18F17671E4B9E21006EF025 /* MessageCell.xib */,
+				B10DC2881E4FD6A50098B47F /* TagView.xib */,
 			);
 			name = XIBs;
 			sourceTree = "<group>";
@@ -338,6 +344,7 @@
 				B105BAC61E49321400C314B4 /* Message.storyboard in Resources */,
 				B1A80A711E47CF0E00A611F2 /* Assets.xcassets in Resources */,
 				B1A80A6F1E47CF0E00A611F2 /* Main.storyboard in Resources */,
+				B10DC2891E4FD6A50098B47F /* TagView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,8 +427,8 @@
 				B1A80A901E47DE5100A611F2 /* UIView+Utils.swift in Sources */,
 				B18F17581E4AABF6006EF025 /* AppStoryboard.swift in Sources */,
 				B105BACA1E49345100C314B4 /* Style.swift in Sources */,
+				B163BB611E4FB3DE004B3BB7 /* CustomAccessBottomViewController.swift in Sources */,
 				B1A80A941E47ECBB00A611F2 /* MainViewController.swift in Sources */,
-				B18F17631E4B93DC006EF025 /* CCCViewController.swift in Sources */,
 				B105BAC01E49317E00C314B4 /* BaseViewController.swift in Sources */,
 				B105BAB61E49227300C314B4 /* ItemMenuTableViewCell.swift in Sources */,
 				B18F17611E4B8380006EF025 /* Sale.swift in Sources */,
@@ -433,6 +440,7 @@
 				B105BAD01E49404D00C314B4 /* Localizable.swift in Sources */,
 				B18F17651E4B94D8006EF025 /* Array+Utils.swift in Sources */,
 				B105BACC1E49364600C314B4 /* UIColor+Hexa.swift in Sources */,
+				B163BB631E4FC62F004B3BB7 /* TagView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

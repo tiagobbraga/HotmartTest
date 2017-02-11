@@ -34,6 +34,7 @@ class MessageViewController: BaseViewController {
         
         self.customColorNavigationBar(Style.Color.yellow, extendNavigationBar: true)
         self.configCollectionView()
+        self.customRightButtonItem()
     }
 
     override func didReceiveMemoryWarning() {
@@ -46,6 +47,12 @@ class MessageViewController: BaseViewController {
     // MARK: Private Methods
     private func configCollectionView() {
         self.collectionView.register(UIView.loadNib(MessageViewController.ReuseCell), forCellWithReuseIdentifier: MessageViewController.ReuseCell)
+    }
+    
+    private func customRightButtonItem() {
+        let tagView: TagView = UIView.loadView("TagView", index: 0) as! TagView
+        let barButtonItem: UIBarButtonItem = UIBarButtonItem(customView: tagView)
+        self.navigationItem.rightBarButtonItem = barButtonItem
     }
     
     // MARK: Notifications
